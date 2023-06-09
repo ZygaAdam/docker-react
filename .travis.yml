@@ -9,7 +9,7 @@ node_js:
 services:
   - docker
 
-before-install:
+before_install:
   -docker build -t adamzyga/docker-react -f Dockerfile.dev .
 
 script:
